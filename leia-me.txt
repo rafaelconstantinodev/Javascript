@@ -1,2 +1,2 @@
-Parei o curso de Javascript na aula 6.
-Iniciar a continuação na aula 7 (Operadores).
+Parei o curso de Javascript na aula 9.
+Introdução ao DOM

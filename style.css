@@ -6,7 +6,7 @@ font-family: Arial, Helvetica, sans-serif;
 body { /*CONFIGURAÇÃO DO CORPO*/
 margin: 0px;
 padding: 0px;
-background-image: linear-gradient(to bottom, #0185e1, white, #0185e1);
+background-image: linear-gradient(to bottom, hwb(205 0% 12%), white, #0185e1);
 }
 /*--------------------------------------------------------------------------*/
 header { /*CONFIGURAÇÃO DO CABEÇALHO*/
@@ -51,3 +51,4 @@ box-shadow: -1px 5px 15px black ;
 background-color: #0185e1;
 }
 /*-----------------------------------------------------------------------------*/
+

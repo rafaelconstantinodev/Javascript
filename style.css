@@ -1,53 +1,53 @@
 @charset "UTF-8";
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
+font-family: Arial, Helvetica, sans-serif;
 }
-body {
-    margin: 0px;
-    padding: 0px;
+body { /*CONFIGURAÇÃO DO CORPO*/
+margin: 0px;
+padding: 0px;
+background-image: linear-gradient(to bottom, #0185e1, white, #0185e1);
 }
-
-header {
-    text-align: center;
-    height: 300px;
-    background-color: #0185e1;
+/*--------------------------------------------------------------------------*/
+header { /*CONFIGURAÇÃO DO CABEÇALHO*/
+text-align: center;
+height: 300px;
+background-color: #0185e1;
 }
-h1 {
-    margin: 0px;
+h1 { /*CONFIGURAÇÃO DO PRIMEIRO TÍTULO*/
+margin: 0px;
 }
-img {
-    width: 100%;
+img { /*CONFIGURAÇÃO DA IMAGEM*/
+width: 100%;
 }
-#imgtopo {
-    width: 300px;
-    height: 200px;
-    border-radius: 50%;
+#imgtopo { /*CONFIGURAÇÃO DA IMAGEM*/
+width: 300px;
+height: 200px;
+border-radius: 50%;
 }
-.principal {
-    background-color: #0185e1;
-    text-align: center;
+/*--------------------------------------------------------------------------*/
+.princ { /*CONFIGURAÇÃO DA DIV PRINCIPAL*/
+background-color: #0185e1;
+text-align: center;
 }
-h2 {
-    margin: 0px;
-    padding-top: 10px;
+h2 { /*CONFIGURAÇÃO DO SEGUNDO TÍTULO*/
+margin: 0px;
+padding-top: 10px;
 }
-#text {
-    margin-top: 15px;
+#text { /*CONFIGURAÇÃO DO INPUT DE DIGITAR PAÍS*/
+margin-top: 15px;
 }
-#verificar {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 100px;
-    height: 50px;
-    font-weight: bold;
-    border-radius: 10px;
-    border: none;
-    box-shadow: -1px 5px 15px black ;
+#verifi { /*CONFIGURAÇÃO DO INPUT BOTÃO VERIFICAR*/
+margin-top: 10px;
+margin-bottom: 10px;
+width: 100px;
+height: 50px;
+font-weight: bold;
+border-radius: 10px;
+border: none;
+box-shadow: -1px 5px 15px black ;
 }
-#verificar:hover {
-    background-color: #0185e1;
+#verifi:hover { /*CONFIGURAÇÃO DE EFEITO DO BOTÃO VERIFICAR*/
+background-color: #0185e1;
 }
-body {
-    background-image: linear-gradient(to bottom, #0185e1, white, #0185e1);
-}
+/*-----------------------------------------------------------------------------*/

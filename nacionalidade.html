@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nacionalidade</title>
-    <link rel="shortcut icon" href="aula11/imagens/favicon_io/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nacionalidade</title>
+<link rel="shortcut icon" href="aula11/imagens/favicon_io/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Exercíco de Nacionalidade</h1>
-        <p>Curso em vídeo - <strong>Guanabara</strong></p>
-        <img src="aula11/imagens/pngtree-the-map-of-brazil-is-highlighted-in-blue-on-the-world-png-image_5744231.png" alt="magem mundo com brasil em destaque" id="imgtopo">
-    </header>
-    <div class="principal">
-        <h2>Em qual país você nasceu ? </h2>
-        <input type="text" name="text" id="txt" placeholder="Ex: Brasil, Inglaterra, etc..."> <br>
-        <input type="button" value="Verificar" onclick="verificar()" id="verificar">
-        
-        <div id="resposta"></div>
-    </div>
+<header>
+<h1>Exercíco de Nacionalidade</h1>
+<p>Curso em vídeo - com <strong>Guanabara</strong></p>
+<img src="aula11/imagens/pngtree-the-map-of-brazil-is-highlighted-in-blue-on-the-world-png-image_5744231.png" alt="magem mundo com brasil em destaque" id="imgtopo">
+</header>
+<div class="princ">
+<h2>Em qual país você nasceu ? </h2>
+<input type="text" name="text" id="txt" placeholder="Ex: Brasil, Inglaterra, etc..."> <br>
+<input type="button" value="Verificar" onclick="verificar()" id="verifi">
 
-    <script src="script.js"></script>
+<div id="resp"></div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
+
+<!----------------------COMENTANDO CÓDIGO---------------------------->
+
+<!--linha 17 - div criada para exibir o conteúdo interativo principal classificada 
+com o id 'princ' de principal-->
+<!--linha 19 - input para receber o país digitado pelo usuário-->
+<!--linha 20 - input do tipo botão para acionar a função de verificar nacionalidade-->
+<!--linha 22 - div criada para exibir o resultado da verificação de nacionalidade 
+classificada com o 'id resp' de resposta.-->

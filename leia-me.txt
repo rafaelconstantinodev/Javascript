@@ -1,2 +1,2 @@
-Parei o curso de Javascript na aula 9.
-Introdução ao DOM
+Parei o curso de Javascript no módulo D
+Exercício JavaScript Parte 3
